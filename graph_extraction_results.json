@@ -1,0 +1,225 @@
+[
+  {
+    "chunk": 2,
+    "page": "1",
+    "source": "documents/sample.pdf",
+    "text": "Industrial visits are a crucial part of experiential learning, allowing students to connect \ntheoretical knowledge from classrooms with the practices and challenges faced in real \nindustrial environments. The visit to Adani Kattupalli Port gave students an opportunity to \nobserve how automation, communication, monitoring, and coordination systems work \ntogether to maintain smooth industrial operations. \nThe main objectives of the industrial visit were to: \nProvide students with an understanding of how engineering and technology are \napplied in large-scale industrial environments.",
+    "entities": [
+      {
+        "name": "Adani Kattupalli Port",
+        "type": "FACILITY"
+      },
+      {
+        "name": "students",
+        "type": "GROUP"
+      },
+      {
+        "name": "engineering",
+        "type": "CONCEPT"
+      },
+      {
+        "name": "technology",
+        "type": "CONCEPT"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "students",
+        "relationship": "VISITS",
+        "target": "Adani Kattupalli Port"
+      },
+      {
+        "source": "students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "engineering"
+      },
+      {
+        "source": "students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "technology"
+      }
+    ]
+  },
+  {
+    "chunk": 3,
+    "page": "2",
+    "source": "documents/sample.pdf",
+    "text": "Familiarize students with industrial workflows and control mechanisms used in \nmodern logistics and infrastructure management. \nHighlight the role of monitoring, communication, and ínformation systems in \nensuring efficiency and safety. \nEncourage students to relate academic concepts to practical applications and gain \nawareness of potential career paths. \n3. About Adani Kattupalli Port \nAdani Kattupali Port, managed by the Adani Ports and Special Economic Zone \n(APSEZ), is a world-class facility known for its advanced infrastructure, efficient \nmanagement systems, and sustainable operations. It handles diverse cargo types and plays a \ncritical role in India's maritime logistics network. \nDuring the visit, students learned about the port's operational structure, including cargo \nmanagement, container handling, coordination among departments, and safety protocols. The \nsession also emphasized the importance of technology-enabled decision-making, which",
+    "entities": [
+      {
+        "name": "students",
+        "type": "GROUP"
+      },
+      {
+        "name": "Adani Kattupalli Port",
+        "type": "FACILITY"
+      },
+      {
+        "name": "Adani Ports and Special Economic Zone",
+        "type": "ORGANIZATION"
+      },
+      {
+        "name": "India",
+        "type": "LOCATION"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Adani Kattupalli Port",
+        "relationship": "MANAGED_BY",
+        "target": "Adani Ports and Special Economic Zone"
+      },
+      {
+        "source": "Adani Kattupalli Port",
+        "relationship": "LOCATED_IN",
+        "target": "India"
+      },
+      {
+        "source": "students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "Adani Kattupalli Port"
+      }
+    ]
+  },
+  {
+    "chunk": 4,
+    "page": "2",
+    "source": "documents/sample.pdf",
+    "text": "management, container handling, coordination among departments, and safety protocols. The \nsession also emphasized the importance of technology-enabled decision-making, which \nensures precision, productivity, and reliability in such complex environments. \nGoogle \nIndia \n, India \nLat 13.313505° Long 80.349993° \nGPS Mag Gamera \nSaturday, 11/10/2025 03:24 PM GMT +05:30",
+    "entities": [
+      {
+        "name": "Google",
+        "type": "ORGANIZATION"
+      },
+      {
+        "name": "India",
+        "type": "LOCATION"
+      },
+      {
+        "name": "GPS Mag Gamera",
+        "type": "TECHNOLOGY"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Google",
+        "relationship": "LOCATED_IN",
+        "target": "India"
+      }
+    ]
+  },
+  {
+    "chunk": 5,
+    "page": "3",
+    "source": "documents/sample.pdf",
+    "text": "4. Learning Highlights \nThe visit offered an enriching and multi-dimensional learning experience, reinforcing \nthe connection between classroom theories and their industrial applications. \na) Overview of Port Operations \nStudents observed how a port functions as a coordinated ecosystem involving people, \nmachinery, nd technology. The presentation explained how real-time monitoring and \ncommunication play vital roles in ensuring smooth day-to-day operations. These systems \ncollect real-time data through distributed sensors and programmable controllers, \ntransmitting information via secure communication channels to the central control room for \nanalytics and decision-making. \nb) ExpoSure to Industrial Systems \nThe students were introduced to the key systems involved in managing large infrastructure -\nfrom automated handling equipment and monitoring systems to data coordination units. They \nlearned how engineering disciplines, including electronics and communication, support these",
+    "entities": [
+      {
+        "name": "Students",
+        "type": "GROUP"
+      },
+      {
+        "name": "Port Operations",
+        "type": "CONCEPT"
+      },
+      {
+        "name": "real-time monitoring",
+        "type": "TECHNOLOGY"
+      },
+      {
+        "name": "communication",
+        "type": "TECHNOLOGY"
+      },
+      {
+        "name": "central control room",
+        "type": "FACILITY"
+      },
+      {
+        "name": "automated handling equipment",
+        "type": "TECHNOLOGY"
+      },
+      {
+        "name": "monitoring systems",
+        "type": "TECHNOLOGY"
+      },
+      {
+        "name": "data coordination units",
+        "type": "TECHNOLOGY"
+      },
+      {
+        "name": "engineering disciplines",
+        "type": "CONCEPT"
+      },
+      {
+        "name": "electronics",
+        "type": "CONCEPT"
+      },
+      {
+        "name": "communication",
+        "type": "CONCEPT"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "Port Operations"
+      },
+      {
+        "source": "Students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "real-time monitoring"
+      },
+      {
+        "source": "Students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "communication"
+      },
+      {
+        "source": "Students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "automated handling equipment"
+      },
+      {
+        "source": "Students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "monitoring systems"
+      },
+      {
+        "source": "Students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "data coordination units"
+      },
+      {
+        "source": "Students",
+        "relationship": "LEARNED_ABOUT",
+        "target": "engineering disciplines"
+      },
+      {
+        "source": "engineering disciplines",
+        "relationship": "SUPPORTS",
+        "target": "automated handling equipment"
+      },
+      {
+        "source": "engineering disciplines",
+        "relationship": "SUPPORTS",
+        "target": "monitoring systems"
+      },
+      {
+        "source": "engineering disciplines",
+        "relationship": "SUPPORTS",
+        "target": "data coordination units"
+      },
+      {
+        "source": "engineering disciplines",
+        "relationship": "SUPPORTS",
+        "target": "electronics"
+      },
+      {
+        "source": "engineering disciplines",
+        "relationship": "SUPPORTS",
+        "target": "communication"
+      }
+    ]
+  }
+]

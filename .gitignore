@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+uploaded_document.pdf
+.faiss/
